@@ -1,0 +1,5 @@
+output
+BufferedWriter, bf.write(i + "\n");
+
+input
+BufferedReader, Integer.parseInt
