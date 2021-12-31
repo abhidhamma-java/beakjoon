@@ -2,6 +2,7 @@ package com.hanji.beakjoon.class2.n1018;
 
 import java.util.Scanner;
 
+//구현
 public class Main {
 
     public static boolean[][] arr;
@@ -23,9 +24,9 @@ public class Main {
 
             for (int j = 0; j < M; j++) {
                 if (str.charAt(j) == 'W') {
-                    arr[i][j] = true;		// W일 때는 true
+                    arr[i][j] = true;   // W일 때는 true
                 } else {
-                    arr[i][j] = false;		// B일 때는 false
+                    arr[i][j] = false;	// B일 때는 false
                 }
 
             }
